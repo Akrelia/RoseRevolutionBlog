@@ -6,7 +6,7 @@
     "dev": "astro dev",
     "start": "astro dev",
     "check": "astro check",
-    "build": "astro check && astro build && pagefind --site dist && xcopy dist\\pagefind public\\ /E /I /Y",
+    "build": "astro check && astro build && pagefind --site dist && cp -r dist/pagefind public/",
     "preview": "astro preview",
     "deploy": "astro build && npx gh-pages -d dist",
     "astro": "astro"
