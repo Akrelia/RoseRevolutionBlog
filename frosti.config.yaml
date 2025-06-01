@@ -23,29 +23,13 @@ site:
       svg: "material-symbols:info-outline-rounded"
       target: _self
     - id: blog
-      text: Blogs
+      text: Posts
       href: /RoseRevolutionBlog/blog
       svg: "material-symbols:book-2-outline-rounded"
       target: _self
-      subItems:
-        - id: all
-          text: All blogs
-          href: /RoseRevolutionBlog/blog
-          svg: "material-symbols:ink-pen-outline-rounded"
-          target: _self
-        - id: documentation
-          text: Documentation
-          href: /RoseRevolutionBlog/blog/category/Documentation
-          svg: "material-symbols:unknown-document-outline-rounded"
-          target: _self
-        - id: examples
-          text: Examples
-          href: /RoseRevolutionBlog/blog/category/Examples
-          svg: "material-symbols:deployed-code-outline"
-          target: _self
-    - id: project
-      text: Project
-      href: /RoseRevolutionBlog/project
+    - id: contribute
+      text: Contribute
+      href: /RoseRevolutionBlog/contribute
       svg: "material-symbols:code-blocks-outline"
       target: _self
     - id: contact
@@ -60,37 +44,21 @@ user:
   avatar: /RoseRevolutionBlog/profile.png
   sidebar:
     social:
-      - href: "https://afdian.com/a/saroprock"
-        ariaLabel: Support my work
-        title: Support my work
-        svg: "ri:cup-line"
-      - href: "https://github.com/EveSunMaple"
+      - href: "https://discord.gg/wgBxaJ9jGt"
+        ariaLabel: Our Discord Server
+        title: Our Discord Server
+        svg: "ri:discord-line"
+      - href: "https://github.com/Akrelia"
         ariaLabel: Github
         title: Github
         svg: "ri:github-line"
-      - href: "https://space.bilibili.com/438392347"
-        ariaLabel: BiliBili
-        title: BiliBili
-        svg: "ri:bilibili-line"
-      - href: "https://x.com/EveSunMaple"
-        ariaLabel: X(twitter)
-        title: X(twitter)
-        svg: "ri:twitter-line"
   footer:
     social:
-      - href: "https://afdian.com/a/saroprock"
-        ariaLabel: Support my work
-        title: Support my work
-        svg: "ri:cup-line"
-      - href: "https://github.com/EveSunMaple"
+      - href: "https://discord.gg/wgBxaJ9jGt"
+        ariaLabel: Our Discord Server
+        title: Our Discord Server
+        svg: "ri:discord-line"
+      - href: "https://github.com/Akrelia"
         ariaLabel: Github
         title: Github
         svg: "ri:github-line"
-      - href: "https://space.bilibili.com/438392347"
-        ariaLabel: BiliBili
-        title: BiliBili
-        svg: "ri:bilibili-line"
-      - href: "https://x.com/EveSunMaple"
-        ariaLabel: X(twitter)
-        title: X(twitter)
-        svg: "ri:twitter-line"

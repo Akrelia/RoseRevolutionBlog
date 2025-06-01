@@ -1,0 +1,33 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import { Icon } from "astro-icon/components";
+import MainCard from "@/components/MainCard.astro";
+import GitHubStats from "@/components/mdx/GitHubStats.astro";
+import RepositoryCard from "@/components/mdx/RepositoryCard.astro";
+---
+
+<BaseLayout title="Projects">
+  <MainCard image="/RoseRevolutionBlog/image/cover-contribute.png" title="Project" textOverlay="PROJECTS" infoIcon="lucide:code-2">
+    <section class="py-6">
+      <section class="py-6">
+        <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
+          <Icon name="lucide:list-todo" class="w-6 h-6 text-primary" />
+          <span>Guidelines</span>
+        </h2>
+        <p class="text-base-content/80">
+          If you’re interested in giving us a hand, don’t hesitate to reach out! Whether you're a <b>C#</b> developer, someone familiar with <b>Unity</b>, a graphic artist, or a level designer — there's always a way to contribute!
+        </p>
+        <br />
+        <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
+          <Icon name="lucide:github" class="w-6 h-6 text-primary" />
+          <span>Repositories</span>
+        </h2>
+
+        <GitHubStats username="Akrelia" repositoryName="RoseRevolution" showLanguages={true} showContributors={true} />
+      </section>
+      <section class="py-6">
+        <GitHubStats username="Akrelia" repositoryName="Rose-Revolution-Server" showLanguages={true} showContributors={true} />
+      </section>
+    </section></MainCard
+  >
+</BaseLayout>
